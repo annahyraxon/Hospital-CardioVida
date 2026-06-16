@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    display: flex;
+    height: 10vh;
+    padding: 7px;
+}
+
+/* navegacion */
+.barra_nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    scroll-behavior: smooth;
+    background-color: blue;
+}
+.nav-con{
+    display: flex;
+    align-items: center;
+}
+.lgimg{
+    display: flex;
+    height: 8vh;
+    border-radius: 10%;
+    margin-left: 20px;
+}
+.listado_nav{
+    display: flex;
+    margin-right: 0;
+    list-style: none;
+}
+.plb{
+    font-size: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 1s ease;
+}
+
+.listado_nav, .plb, .refe{
+    color: white;
+    text-decoration: none;
+}

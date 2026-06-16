@@ -1,0 +1,34 @@
+.tipos{
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.tipos h2{
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.texto{
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.img-info{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.img-info img{
+    width: 80%;
+    max-width: 700px;
+
+    border: 5px solid #1e3a8a;
+    border-radius: 20px;
+
+    padding: 5px;
+}

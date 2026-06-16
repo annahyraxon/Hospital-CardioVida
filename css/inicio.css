@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.colesterol{
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 30px 5px 30px;
+    text-align: center;
+}
+
+.frase{
+   padding-top: 0;
+   font-size: 1rem;
+}
+
+.info{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.info h2{
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.texto{
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.img-info{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.img-info img{
+    width: 80%;
+    max-width: 700px;
+
+    border: 5px solid #1e3a8a; /* borde azul */
+    border-radius: 20px;
+
+    padding: 5px; /* espacio entre la imagen y el borde */
+}
