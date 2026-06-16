@@ -110,3 +110,88 @@
 
     box-shadow: 0 8px 20px rgba(0,0,0,.2);
 }
+
+/* CELULAR */
+@media (max-width:767px){
+
+    .contacto{
+        width: 95%;
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    .contacto h2{
+        font-size: 1.8rem;
+    }
+
+    .texto-contacto{
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .formulario label{
+        font-size: 1rem;
+    }
+
+    .formulario input,
+    .formulario textarea{
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+
+    .formulario textarea{
+        height: 120px;
+    }
+
+    .formulario button{
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+}
+
+
+/* LAPTOP */
+@media (min-width:768px){
+
+    .contacto{
+        width: 85%;
+        max-width: 700px;
+    }
+
+    .contacto h2{
+        font-size: 2.2rem;
+    }
+
+    .texto-contacto{
+        font-size: 1.1rem;
+    }
+
+    .formulario input,
+    .formulario textarea{
+        font-size: 1rem;
+    }
+
+    .formulario button{
+        font-size: 1.1rem;
+    }
+
+}
+
+
+/* PANTALLAS GRANDES */
+@media (min-width:1024px){
+
+    .contacto{
+        max-width: 800px;
+    }
+
+    .contacto h2{
+        font-size: 2.5rem;
+    }
+
+    .texto-contacto{
+        font-size: 1.2rem;
+    }
+
+}

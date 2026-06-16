@@ -32,3 +32,63 @@
 
     padding: 5px;
 }
+
+/* CELULAR */
+@media (max-width:767px){
+
+    .tipos{
+        width: 95%;
+        padding: 15px;
+    }
+
+    .tipos h2{
+        font-size: 1.5rem;
+    }
+
+    .texto{
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .img-info img{
+        width: 100%;
+    }
+
+}
+
+
+/* LAPTOP */
+@media (min-width:768px){
+
+    .tipos{
+        width: 85%;
+    }
+
+    .tipos h2{
+        font-size: 2.2rem;
+    }
+
+    .texto{
+        font-size: 1.2rem;
+    }
+
+    .img-info img{
+        width: 70%;
+    }
+
+}
+
+
+/* PANTALLAS GRANDES */
+@media (min-width:1024px){
+
+    .tipos{
+        width: 80%;
+        max-width: 1200px;
+    }
+
+    .img-info img{
+        width: 60%;
+    }
+
+}
